@@ -15,6 +15,7 @@
 #include "I2C.h"
 #include "Serial.h"
 #include "Print.h"
+#include "TimeMock.h"
 #include "SPI.h"
 #include "Ticks.h"
 #include "PinMode.h"
