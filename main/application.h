@@ -1,5 +1,7 @@
 // /Users/brandonrivera-melo/Documents/Repos/particle-device-os/wiring/inc/
 #pragma once
+#undef min
+#undef max
 #include <cstdint>
 #include "typedefs.h"
 #include "Vector.h"
