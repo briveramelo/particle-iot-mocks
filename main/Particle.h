@@ -6,5 +6,8 @@ public:
     bool connected(){return false;}
     void connect(){}
     void syncTime(){}
+    void unsubscribe(){}
+    void subscribe(const char * topic, void (*callback)(const char *topic, const char *data)){}
+    void publish(const char *){}
 };
 extern Particle Particle;
