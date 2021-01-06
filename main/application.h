@@ -19,7 +19,15 @@
 #include "SPI.h"
 #include "Ticks.h"
 #include "PinMode.h"
+#include "Particle.h"
 #include "Wiring.h"
+#include "WiFi.h"
+
+#include "spark_wiring_string.h"
+#include "spark_wiring_tcpclient.h"
+#include "spark_wiring_usbserial.h"
+#include "timer_hal.h"
+
 using spark::Vector;
 using ::PinMode;
 
@@ -27,3 +35,5 @@ using ::PinMode;
 #define OUTPUT 1
 #define HIGH 1
 #define LOW 0
+#define SEMI_AUTOMATIC 0
+#define SYSTEM_MODE(mode)
