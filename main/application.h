@@ -17,6 +17,7 @@
 #include "Print.h"
 #include "TimeMock.h"
 #include "SPI.h"
+#include "System.h"
 #include "Ticks.h"
 #include "PinMode.h"
 #include "Particle.h"
