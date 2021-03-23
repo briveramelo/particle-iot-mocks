@@ -14,10 +14,14 @@
 #include "UDP.h"
 #include "I2C.h"
 #include "Serial.h"
+#include "InterruptMode.h"
+#include "SystemSleepMode.h"
+#include "SystemSleepConfiguration.h"
 #include "Print.h"
 #include "TimeMock.h"
 #include "SPI.h"
 #include "System.h"
+#include "FuelGauge.h"
 #include "Ticks.h"
 #include "PinMode.h"
 #include "Particle.h"
@@ -38,3 +42,9 @@ using ::PinMode;
 #define LOW 0
 #define SEMI_AUTOMATIC 0
 #define SYSTEM_MODE(mode)
+#define D0 0
+#define D1 0
+#define BATT 0
+#define PWR 0
+#define CHG 0
+#define WKP 17
