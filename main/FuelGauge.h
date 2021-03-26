@@ -1,3 +1,5 @@
+#pragma once
+
 class FuelGauge {
 public:
     FuelGauge(bool _lock = false);
