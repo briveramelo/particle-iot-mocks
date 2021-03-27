@@ -12,8 +12,10 @@
 #include "Stream.h"
 #include "TCPClient.h"
 #include "UDP.h"
+#include "RGB.h"
 #include "I2C.h"
 #include "Serial.h"
+#include "interrupts.h"
 #include "InterruptMode.h"
 #include "PMIC.h"
 #include "SystemSleepMode.h"
@@ -26,6 +28,7 @@
 #include "FuelGauge.h"
 #include "Ticks.h"
 #include "PinMode.h"
+#include "PinMapDefines.h"
 #include "Particle.h"
 #include "Wiring.h"
 #include "WiFi.h"
@@ -44,9 +47,3 @@ using ::PinMode;
 #define LOW 0
 #define SEMI_AUTOMATIC 0
 #define SYSTEM_MODE(mode)
-#define D0 0
-#define D1 0
-#define BATT 0
-#define PWR 0
-#define CHG 0
-#define WKP 17
