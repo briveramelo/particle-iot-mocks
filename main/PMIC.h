@@ -1,5 +1,7 @@
 #pragma once
 
+#include "typedefs.h"
+
 //Default PMIC (BQ24195) I2C address
 #define PMIC_ADDRESS                            0x6B
 

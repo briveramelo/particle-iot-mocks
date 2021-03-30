@@ -1,6 +1,7 @@
 // /Users/brandonrivera-melo/Documents/Repos/particle-device-os/wiring/inc/
 #pragma once
 #include <cstdint>
+#include "enumflags.h"
 #include "typedefs.h"
 #include "Vector.h"
 #include "mockString.h"
