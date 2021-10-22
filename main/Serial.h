@@ -6,6 +6,9 @@ public:
     void begin(int val){}
     void end(){}
     void print(float val){}
+    void print(const char* val){}
+    void print(float val1, int val2){}
+    void println(){}
     void println(const char* val){}
     void println(const char* val, int num){}
     void println(const char* val, const char* other){}

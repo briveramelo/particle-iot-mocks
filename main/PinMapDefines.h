@@ -36,7 +36,7 @@
 #define A4 D15
 #define A5 D14
 
-//#define SS D14
+#define SS D14
 //#define SCK D13
 //#define MISO D11
 //#define MOSI D12
