@@ -48,3 +48,5 @@ using ::PinMode;
 #define LOW 0
 #define SEMI_AUTOMATIC 0
 #define SYSTEM_MODE(mode)
+#define SYSTEM_THREAD(mode)
+#define waitUntil(condition)
