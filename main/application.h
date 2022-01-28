@@ -50,3 +50,4 @@ using ::PinMode;
 #define SYSTEM_MODE(mode)
 #define SYSTEM_THREAD(mode)
 #define waitUntil(condition)
+void tone(int pin, int frequency, int duration);
