@@ -7,7 +7,7 @@ public:
     bool connected(){return false;}
     void connect(){}
     void syncTime(){}
-    bool function(const char * funcName, int (*callback)(String extra)){}
+    bool function(const char * funcName, int (*callback)(String extra)){return false;}
     void unsubscribe(){}
     void subscribe(const char * topic, void (*callback)(const char *topic, const char *data)){}
     void publish(const char *){}

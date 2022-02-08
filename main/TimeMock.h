@@ -3,7 +3,7 @@ class TimeMock
 {
 public:
     long now(){return 0;}
-    char * timeStr(){return "";}
+    char * timeStr(){return (char*)"";}
     int year(){return 0;}
     int month(){return 0;}
     int day(){return 0;}
