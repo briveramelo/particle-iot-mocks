@@ -33,6 +33,7 @@
 #include "Particle.h"
 #include "Wiring.h"
 #include "WiFi.h"
+#include "Timer.h"
 
 #include "spark_wiring_string.h"
 #include "spark_wiring_tcpclient.h"
