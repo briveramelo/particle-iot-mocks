@@ -3,6 +3,7 @@
 #include "SystemSleepConfiguration.h"
 #include "SystemPowerConfiguration.h"
 
+#define FEATURE_RETAINED_MEMORY 0
 class System
 {
 public:
@@ -12,5 +13,6 @@ public:
     int powerSource(){return 0;}
     int batteryState(){return 0;}
     float batteryCharge(){return 0;}
+    void enableFeature(int feature){};
 };
 extern System System;

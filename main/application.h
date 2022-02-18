@@ -34,6 +34,7 @@
 #include "Wiring.h"
 #include "WiFi.h"
 #include "Timer.h"
+#include "EEPROM.h"
 
 #include "spark_wiring_string.h"
 #include "spark_wiring_tcpclient.h"
@@ -51,5 +52,6 @@ using ::PinMode;
 #define SEMI_AUTOMATIC 0
 #define SYSTEM_MODE(mode)
 #define SYSTEM_THREAD(mode)
+#define STARTUP(mode)
 #define waitUntil(condition)
 void tone(int pin, int frequency, int duration);
