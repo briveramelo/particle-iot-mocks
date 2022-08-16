@@ -53,5 +53,7 @@ using ::PinMode;
 #define SYSTEM_MODE(mode)
 #define SYSTEM_THREAD(mode)
 #define STARTUP(mode)
+#define PRODUCT_VERSION(integer)
+#define PRODUCT_ID(integer) //will be deprecated in deviceOS 4.x
 #define waitUntil(condition)
 void tone(int pin, int frequency, int duration);
