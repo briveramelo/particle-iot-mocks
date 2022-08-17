@@ -14,5 +14,7 @@ public:
     int batteryState(){return 0;}
     float batteryCharge(){return 0;}
     void enableFeature(int feature){};
+    void disableUpdates(){};
+    void enableUpdates(){};
 };
 extern System System;
