@@ -16,5 +16,6 @@ public:
     void enableFeature(int feature){};
     void disableUpdates(){};
     void enableUpdates(){};
+    bool updatesEnabled(){return false;};
 };
 extern System System;
