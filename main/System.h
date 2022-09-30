@@ -17,5 +17,6 @@ public:
     void disableUpdates(){};
     void enableUpdates(){};
     bool updatesEnabled(){return false;};
+    void reset(){};
 };
 extern System System;
