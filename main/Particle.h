@@ -9,7 +9,7 @@ public:
     void syncTime(){}
 
     template <typename T, typename... ArgsT>
-    static inline bool variable(const T &name, ArgsT&&... args){return false;}
+    inline bool variable(const T &name, ArgsT&&... args){return false;}
 
     bool function(const char * funcName, int (*callback)(String extra)){return false;}
     void unsubscribe(){}
